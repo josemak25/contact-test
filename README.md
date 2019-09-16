@@ -7,12 +7,14 @@ testing contact app for bootcamp sq004
   npm install
 ```
 
+# start server
+
+```javascript
+  npx json-server --watch db.json   
+```
+
 # start app
 
 ```javascript
-
-  npx json-server --watch db.json 
-
   npm start
-  
 ```
