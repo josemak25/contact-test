@@ -10,5 +10,9 @@ testing contact app for bootcamp sq004
 # start app
 
 ```javascript
+
+  npx json-server --watch db.json 
+
   npm start
+  
 ```
