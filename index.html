@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Easy Contact App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="contact-list">
+        <h1>my contact list</h1>
+        <div class="display-contacts"></div>
+      </section>
+      <section class="add-contact">
+        <form>
+          <input type="text" placeholder="contact title" name="title" />
+          <input type="text" placeholder="contact firstName" name="firstName" />
+          <input type="text" placeholder="contact lastName" name="lastName" />
+          <input type="number" placeholder="contact phone" name="phone" />
+          <button id="submit-new-contact">add new contact</button>
+          <button id="submit-edited-contact">save contact</button>
+        </form>
+      </section>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
