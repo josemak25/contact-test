@@ -61,3 +61,16 @@ button {
 #delete {
   background: rgba(230, 10, 10, 0.801);
 }
+
+.contact-list {
+  overflow-y: auto;
+}
+
+.display-contacts {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#submit-edited-contact {
+  display: none;
+}
